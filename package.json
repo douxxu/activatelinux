@@ -1,0 +1,16 @@
+{
+    "name": "activatelinux",
+    "version": "1.0.0",
+    "description": "A windows like activation watermark, but for linux.",
+    "main": "./src/runner/run.js",
+    "bin": {
+      "actlinux": "./runner/run.js"
+    },
+    "scripts": {
+      "start": "node ./runner/run.js"
+    },
+    "author": "github.com/douxxu",
+    "license": "GPL-3.0",
+    "dependencies": {}
+  }
+  
