@@ -1,16 +1,31 @@
 {
     "name": "activatelinux",
-    "version": "1.1.0",
+    "version": "1.1.4",
     "description": "A windows like activation watermark, but for linux.",
-    "main": "./src/runner/run.js",
+    "main": "run.js",
     "bin": {
-      "actlinux": "./runner/run.js"
-    },
-    "scripts": {
-      "start": "node ./runner/run.js"
+      "activatelinux": "./src/runner/run.js"
     },
     "author": "github.com/douxxu",
     "license": "GPL-3.0",
-    "dependencies": {}
+    "dependencies": {
+      "electron": "*"
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douxxu/activatelinux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/douxxu/activatelinux/issues"
+  },
+  "homepage": "https://github.com/douxxu/activatelinux",
+  "keywords": [
+    "linux",
+    "code",
+    "activation",
+    "watermark",
+    "file",
+    "windows"
+  ] 
   }
   
