@@ -29,7 +29,7 @@ sudo npm install -g activatelinux
 ## Usage
 Run it with 
 ```sh
-actlinux
+activatelinux
 ```
 
 <br>
