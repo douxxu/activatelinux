@@ -14,6 +14,7 @@ function ActLinux() {
     skipTaskbar: true,
     x: width - 420,
     y: height - 120,
+    icon: path.join(__dirname, 'icon/icon.png'),
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
